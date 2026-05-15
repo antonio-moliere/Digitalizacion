@@ -7,7 +7,7 @@
 
 ### 1️⃣ Crear y acceder a elementos
 **Enunciado:**
-Crea una lista con los nombres de 5 frutas. Luego:
+Crea una lista con los nombres de 5 frutas. Luego, escribe un programa que:
 - Imprime la primera fruta
 - Imprime la última fruta  
 - Imprime la fruta que está en el medio
@@ -47,7 +47,7 @@ Has introducido 3 números.
 
 ### 3️⃣ Agregar elementos con append()
 **Enunciado:**
-Crea una lista vacía. Luego:
+Crea una lista vacía. Luego, escribe un programa que::
 - Añade tres colores usando `append()`
 - Imprime la lista después de cada adición
 
@@ -63,7 +63,7 @@ Tras añadir verde: ['rojo', 'azul', 'verde']
 
 ### 4️⃣ Eliminar elementos
 **Enunciado:**
-Dada la lista `[10, 20, 30, 40, 50]`:
+Escribe un programa que, dada la lista `[10, 20, 30, 40, 50]`:
 - Elimina el número 30
 - Imprime la lista resultante
 
@@ -73,7 +73,7 @@ Dada la lista `[10, 20, 30, 40, 50]`:
 
 ### 5️⃣ Suma de elementos
 **Enunciado:**
-Suma los números de una lista 
+Escribe un programa que sume los números de una lista 
 
 **Ejemplo:**
 ```
@@ -84,7 +84,7 @@ si tu lista contiene los números del 1 al 5, al ejecutar el programa debe darte
 
 ### 6️⃣ Buscar un elemento
 **Enunciado:**
-Escribe una función `esta_en_lista(elemento, lista)` que devuelva `True` si el elemento está en la lista, y `False` en caso contrario. **No puedes usar el operador `in`.**
+Escribe un programa que devuelve `True` si el elemento está en la lista, y `False` en caso contrario.
 
 **Ejemplo:**
 ```
@@ -99,7 +99,7 @@ False
 
 ### 7️⃣ Invertir una lista
 **Enunciado:**
-Invierte el orden de los elementos de la lista
+Escribe un programa que invierta el orden de los elementos de la lista
 
 **Ejemplo:**
 ```
@@ -112,7 +112,7 @@ si tu lista contiene los números del 1 al 5, al ejecutar el programa debe darte
 
 ### 8️⃣ Contar veces que aparece un elemento
 **Enunciado:**
-Cuenta cuántas veces aparece un elemento en la lista. **No puedes usar el método `.count()`**
+Escribe un programa que cuente cuántas veces aparece un elemento en la lista. 
 
 **Ejemplo:**
 ```
@@ -129,7 +129,7 @@ Deber darte 3
 
 ### 9️⃣ Números pares e impares
 **Enunciado:**
-Dada una lista de números `[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]`, crea dos listas nuevas:
+Escribe un programa que dada una lista de números `[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]`, cree dos listas nuevas:
 - Una con los números pares
 - Otra con los números impares
 
@@ -139,13 +139,13 @@ Pares: [2, 4, 6, 8, 10]
 Impares: [1, 3, 5, 7, 9]
 ```
 
-**Pista:** Usa un bucle y `append()`, o mejor aún, intenta con **list comprehension** (comprensión de listas)
+**Pista:** Usa un bucle y `append()`
 
 ---
 
 ### 🔟 Ordenar una lista
 **Enunciado:**
-Ordena una lista de números de menor a mayor. **No puedes usar el método `.sort()` ni la función `sorted()`**
+Escribe un programa que ordene una lista de números de menor a mayor.
 
 **Ejemplo:**
 ```
@@ -157,7 +157,7 @@ Debe salir [1, 2, 5, 8, 9]
 
 ### 1️⃣1️⃣ Listas de listas
 **Enunciado:**
-Dada una lista de calificaciones por alumno:
+Escribe un programa que dada una lista de calificaciones por alumno:
 ```python
 calificaciones = [
     ['Ana', 7, 8, 9],
@@ -167,7 +167,6 @@ calificaciones = [
 ]
 ```
 
-Crea un programa que:
 - Imprima el nombre y la nota media de cada alumno
 - Indique quién tiene la nota media más alta
 
@@ -189,7 +188,6 @@ El alumno con mayor promedio es: Clara (9.33)
 **Enunciado:**
 Escribe un programa que eleve al cuadrado los elementos de una lista
 
-
 **Ejemplo:**
 ```
 Si tu lista tiene 1, 2, 3, 4, 5
@@ -197,13 +195,13 @@ Devuelve [1, 4, 9, 16, 25]
 
 ```
 
-**Intenta hacerlo on un bucle `for`**
+**Intenta hacerlo con un bucle `for`**
 
 ---
 
 ### 1️⃣3️⃣ Palíndromos en lista
 **Enunciado:**
-Dada una lista de palabras, crea un programa que:
+Escribe un programa que dada una lista de palabras:
 - Filtre solo las palabras que son palíndromos
 - Las imprima con un mensaje especial
 
@@ -221,7 +219,7 @@ oso es palíndromo ✓
 
 ### 1️⃣4️⃣ Slicing avanzado
 **Enunciado:**
-Dada la lista `[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]`, obtén:
+Escribe un programa que dada la lista `[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]`, obtengas:
 - Los 3 primeros elementos
 - Los 3 últimos elementos
 - Todos los elementos de índice par
